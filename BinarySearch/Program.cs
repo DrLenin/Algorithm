@@ -16,7 +16,7 @@ catch
     Console.WriteLine("Error input numbers");
 }
 
-var range = new Range(0, numbers.Length - 1);
+var range = new Range(0, numbers!.Length - 1);
 
 while (range.Low <= range.High)
 {
