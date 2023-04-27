@@ -14,6 +14,7 @@ try
 catch
 {
     Console.WriteLine("Error input numbers");
+    return;
 }
 
 var range = new Range(0, numbers!.Length - 1);

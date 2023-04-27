@@ -9,6 +9,7 @@ try
 catch
 {
     Console.WriteLine("Error input numbers");
+    return;
 }
 
 Console.WriteLine("Sort by desc");
@@ -20,11 +21,11 @@ Console.WriteLine("Sort by asce");
 Array.ForEach(Sort((int[])numbers.Clone()), Console.WriteLine);
 
 
-int[] SortDesc(int[] items) => SortArray(indexOfCheck => items[indexOfCheck] < items[0], ref items);
+int[] SortDesc(int[] items) => SortArray((c, d) => c < d, items);
 
-int[] Sort(int[] items) => SortArray(indexOfCheck => items[indexOfCheck] > items[0], ref items);
+int[] Sort(int[] items) => SortArray((c, d) => c > d, items);
 
-int[] SortArray(Predicate<int> predicate, ref int[] items)
+int[] SortArray(Func<int, int, bool> predicate, int[] items)
 {
     var length = numbers.Length;
     var sortArray = new int[items.Length];
@@ -32,12 +33,14 @@ int[] SortArray(Predicate<int> predicate, ref int[] items)
     for (var indexOfStep = 0; indexOfStep < length; indexOfStep++)
     {
         var indexOfDelete = int.MinValue;
+
+        var variable = items[0];
         
         for (var indexOfCheck = 0; indexOfCheck < items.Length; indexOfCheck++)
         {
-            if (predicate(indexOfCheck)) continue;
+            if (predicate(items[indexOfCheck], variable)) continue;
         
-            var variable = items[indexOfCheck];
+            variable = items[indexOfCheck];
             sortArray[indexOfStep] = variable;
 
             indexOfDelete = indexOfCheck;
