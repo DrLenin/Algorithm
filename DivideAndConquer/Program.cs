@@ -43,11 +43,13 @@ int[] QuickSort(Func<int, int, bool> predicateLeft, Func<int, int, bool> predica
 {
     if (array.Length < 1)
         return array;
-
-    var mid = array[0];
+    //use Random for don't take worst case
+    //use 0 index for standard variant
+    var rnd = new Random();
+    
+    var mid = array[rnd.Next(0, array.Length)];
 
     var left  = array.Where(x => predicateLeft(x, mid)).ToArray();
-    
     var right = array.Where(x => predicateRight(x, mid)).ToArray();
     
     return Concat(QuickSort(predicateLeft, predicateRight, left ), new []{mid}, QuickSort(predicateLeft, predicateRight, right));
