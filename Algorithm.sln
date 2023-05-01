@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingChoice", "SortingCho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideAndConquer", "DivideAndConquer\DivideAndConquer.csproj", "{F7C79D91-6AE2-4CCC-BA58-894D57485C0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchWidth", "SearchWidth\SearchWidth.csproj", "{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F7C79D91-6AE2-4CCC-BA58-894D57485C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C79D91-6AE2-4CCC-BA58-894D57485C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C79D91-6AE2-4CCC-BA58-894D57485C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

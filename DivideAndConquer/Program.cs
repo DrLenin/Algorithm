@@ -11,6 +11,7 @@ catch
     Console.WriteLine("Error input numbers");
 }
 
+var secum = numbers.Select(x => x);
 Console.WriteLine("Quick sort by desc");
 
 Array.ForEach(SortDesc((int[])numbers!.Clone()), Console.WriteLine);
