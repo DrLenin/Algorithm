@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideAndConquer", "DivideA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchWidth", "SearchWidth\SearchWidth.csproj", "{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{92630F9C-AD2D-405A-8B93-3F400205556C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B314E0D8-6C51-42C7-95DD-BA9DCC768E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92630F9C-AD2D-405A-8B93-3F400205556C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92630F9C-AD2D-405A-8B93-3F400205556C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92630F9C-AD2D-405A-8B93-3F400205556C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92630F9C-AD2D-405A-8B93-3F400205556C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
