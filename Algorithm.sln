@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchWidth", "SearchWidth\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{92630F9C-AD2D-405A-8B93-3F400205556C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greedy", "Greedy\Greedy.csproj", "{2F39DBB5-5998-4F65-A26C-432B922D69BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{92630F9C-AD2D-405A-8B93-3F400205556C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92630F9C-AD2D-405A-8B93-3F400205556C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92630F9C-AD2D-405A-8B93-3F400205556C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F39DBB5-5998-4F65-A26C-432B922D69BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F39DBB5-5998-4F65-A26C-432B922D69BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F39DBB5-5998-4F65-A26C-432B922D69BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F39DBB5-5998-4F65-A26C-432B922D69BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
