@@ -5,3 +5,4 @@ This project contains the implementation of algorithms in C#:
 3. Divide and conquer -> sort and sum
 4. Search by width -> search in graph
 5. Algorithm Dijkstra -> finding a shortcut
+6. Algorithm greedy -> nominal value size
